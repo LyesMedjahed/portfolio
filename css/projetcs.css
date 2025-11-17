@@ -90,7 +90,7 @@ main{
     letter-spacing: 0.4rem;
     text-transform: uppercase;
     color: #fff;
-    -webkit-text-stroke: 1px  #007BFF;
+    -webkit-text-stroke: 3px  #007BFF;
 }
 /*END Title*/
 
