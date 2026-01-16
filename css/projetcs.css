@@ -211,16 +211,13 @@ main{
     .nav-toggler{
       position: relative;
       top: 0;
+      left: 0.3rem;
     }
 
     .bxs-sun{
         position: relative;
-        z-index: 1000;
         height: 30px;
-    }
-
-    .logo{
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
 }
 
