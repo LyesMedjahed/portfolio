@@ -20,6 +20,8 @@ body, header, nav, main {
 :root{
     --primary-color: #F8F9FA;
     --secondary-color: #0A192F;
+   /* --mobile-menu-bg: #0C1F3A;*/
+
 }
 
 .dark-theme {
@@ -129,6 +131,9 @@ main{
     margin: 1.25rem 3rem;
     text-align: center;
 }
+p{
+    text-align: center;
+}
 
 /* =========================
    NAV TOGGLER
@@ -192,13 +197,14 @@ main{
         top: 0;
         right: 0;
         height: 100vh;
-        width: min(80vw, 320px);
+        width: 40vw;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1.5em;
-        background-color: var(--secondary-color);
-        backdrop-filter: blur(10px);
+        background: rgba(10, 25, 47, 0.50);
+          backdrop-filter: blur(14px);
+         -webkit-backdrop-filter: blur(14px);
         transform: translateX(100%);
         transition: transform 0.3s ease;
         z-index: 999;
