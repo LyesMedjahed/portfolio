@@ -134,6 +134,21 @@ main{
 p{
     text-align: center;
 }
+/* ============================
+   Card projects/screen details 
+   By Lyes - 17/01-/2026
+============================ */
+.details {
+    line-height: 2rem;
+    background: rgba(10, 25, 47, 0.50);
+          backdrop-filter: blur(14px);
+         -webkit-backdrop-filter: blur(14px);
+    border: 1px solid  rgba(255, 255, 255, 0.148);
+    border-radius: 0.625rem;
+    padding: 10px 20px;
+    border-top: transparent;
+}
+
 
 /* =========================
    NAV TOGGLER
