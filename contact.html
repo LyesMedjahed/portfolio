@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Lyes</title>
 
+    <!--css navBar-->
+    <link rel="stylesheet" href="/components/navBar/navBar/navBar.css">
+    <!--end css navBar-->
+
     <link rel="stylesheet" href="css/contact.css">
     <script src="js/contact.js" defer></script>
 
@@ -17,22 +21,7 @@
 <body>
 
     <header>
-        <div>
-            <a class="logo" href="index.html">Portfolio.</a>
-        </div>
-        <nav id="navig">
-            <a href="index.html">Home</a>
-            <a href="projects.html" class="projects">Projects</a>
-            <a href="contact.html" class="contactPage">Contact</a>
-        </nav>
-
-        <img src="images/contact/sun-contact.png" class="bxs-sun" id="iconSun" alt="icon moon">
-
-        <button type="button" aria-label="button curtain navigation" class="nav-toggler" id="navButton">
-            <span class="line l1"></span>
-            <span class="line l2"></span>
-            <span class="line l3"></span>
-        </button>
+        <div id="navBar"></div>
     </header>
 
     <h1 class="title">Contact</h1>
@@ -98,5 +87,8 @@
          </form>
       </div>
     </section>
+  <!--Async Nav bar menu-->
+  <script src="/components/navBar/navBar/navBar.js"></script>
+  <!--Async Nav bar menu End-->
 </body>
 </html>

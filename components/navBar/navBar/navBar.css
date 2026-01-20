@@ -1,0 +1,138 @@
+/* =========================
+   MAIN MENU COMPONENT
+========================= */
+.main-menu{
+    width: 100%;
+    min-height: 10vh;
+    margin: 1rem 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.148);
+    vertical-align: middle;
+}
+
+/* Logo */
+.logo{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* =========================
+   NAV
+========================= */
+nav{
+    border: 2px solid rgba(255, 255, 255, 0.148);
+    padding: 0.25rem;
+    border-radius: 1.25rem;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a{
+    color: var(--primary-color);
+    text-decoration: none;
+    position: relative;
+    font-size: 1em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4em;
+}
+
+nav a:hover{
+    background-color: #007BFF;
+}
+
+/* =========================
+   ICON THEME
+========================= */
+.bxs-sun{
+    color: var(--primary-color);
+    font-size: 1.5em;
+    cursor: pointer;
+    height: 30px;
+}
+
+/* =========================
+   NAV TOGGLER
+========================= */
+.nav-toggler{
+    position: fixed;
+    top: 2rem;
+    right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border: none;
+    z-index: 1000;
+}
+
+.line{
+    position: absolute;
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 30px;
+    transition: transform 0.3s ease-out, opacity 0.1s ease-out;
+}
+
+.l1{ transform: translateY(-10px); }
+.l3{ transform: translateY(10px); }
+
+.nav-toggler.active .l1{ transform: rotate(135deg); }
+.nav-toggler.active .l2{ opacity: 0; }
+.nav-toggler.active .l3{ transform: rotate(-135deg); }
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 1024px){
+
+    nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 40vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5em;
+        background: rgba(10, 25, 47, 0.50);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        z-index: 999;
+    }
+
+    nav.active{
+        transform: translateX(0);
+    }
+
+    .nav-toggler{
+        position: relative;
+        top: 0;
+        left: 0.3rem;
+    }
+
+    .bxs-sun{
+        position: relative;
+        height: 30px;
+        margin-left: 3rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .nav-toggler{
+        display: none;
+    }
+}

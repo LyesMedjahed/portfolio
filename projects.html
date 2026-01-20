@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Lyes</title>
+
+    <!--css navBar-->
+    <link rel="stylesheet" href="/components/navBar/navBar/navBar.css">
+    <!--end css navBar-->
+
     <link rel="stylesheet" href="css/projetcs.css">
     <script src="js/projetcs.js" defer></script>
 
@@ -14,24 +19,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <div>
-            <a class="logo" href="index.html">Portfolio.</a>
-        </div>
-        <nav id="navig">
-            <a href="index.html">Home</a>
-            <a href="projects.html" class="projectsPage">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-
-        <img src="images/projects/sun-projects.png" class="bxs-sun" id="iconSun" alt="icon moon">
-
-
-      <button type="button" aria-label="button curtain navigation" class="nav-toggler" id="navButton">
-            <span class="line l1"></span>
-            <span class="line l2"></span>
-            <span class="line l3"></span>
-        </button>
+        <div id="navBar"></div>
     </header>
     <main>
        <h1 class="title">Projects</h1>
@@ -78,4 +68,8 @@
 
         </section>
     </main>
+
+  <!--Async Nav bar menu-->
+  <script src="/components/navBar/navBar/navBar.js"></script>
+  <!--Async Nav bar menu End-->
 </body>
