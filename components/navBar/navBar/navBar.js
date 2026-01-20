@@ -29,8 +29,8 @@ async function loadNavBar() {
             icon.addEventListener('click', () => {
                 document.body.classList.toggle('dark-theme');
                 icon.src = document.body.classList.contains('dark-theme')
-                    ? "/images/projects/moon-projects.png"
-                    : "/images/projects/sun-projects.png";
+                    ? "./images/projects/moon-projects.png"
+                    : "./images/projects/sun-projects.png";
             });
         }
 
