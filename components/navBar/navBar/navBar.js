@@ -5,7 +5,7 @@
 async function loadNavBar() {
     try {
         // 1️⃣ Fetch le HTML du composant
-        const response = await fetch('/components/navBar/navBar/navBar.html');
+        const response = await fetch('../components/navBar/navBar/navBar.html');
         if (!response.ok) throw new Error('Loading navBar error!');
 
         const html = await response.text();
