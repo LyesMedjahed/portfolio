@@ -2,7 +2,7 @@
 My personal portfolio showcasing my work as a Frontend Developer, focused on modern web interfaces, clean design, and smooth animations.
 
 ## 🚀 Live Website
-🔗 [https://your-portfolio-link.com](https://lyesmedjahed.github.io/portfolio/)
+🔗 [https://lyesmedjahed.com](https://lyesmedjahed.github.io/portfolio/)
 
 ## 📸 Preview
 ![Portfolio Preview](./preview.png)
