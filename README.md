@@ -13,11 +13,12 @@ Hi, I’m Lyes, a Frontend Developer passionate about building modern, responsiv
 I enjoy turning ideas into interactive experiences using modern JavaScript frameworks and animation libraries.
 
 ## 🛠️ Tech Stack
-- React.js
-- JavaScript (ES6+)
-- GSAP
-- HTML5
-- CSS3
+![React](https://img.shields.io/badge/React-blue?style=flat-square&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JS-yellow?style=flat-square&logo=javascript&logoColor=black)
+![ES6](https://img.shields.io/badge/ES6-yellow?style=flat-square&logo=javascript&logoColor=black)
+![GSAP](https://img.shields.io/badge/GSAP-black?style=flat-square&logo=greensock&logoColor=32FF00)
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=flat-square&logo=css3&logoColor=white)
 
 ## ✨ Features
 - Responsive and mobile-first design
