@@ -6,6 +6,7 @@ My personal portfolio showcasing my work as a Frontend Developer, focused on mod
 
 ## 📸 Preview
 ![Portfolio Preview](./images/portfoliodemo1.png)
+![Portfolio Preview](./images/portfoliodemo2.png)
 
 ## 👋 About Me
 Hi, I’m Lyes, a Frontend Developer passionate about building modern, responsive, and user-friendly web applications.
@@ -23,6 +24,8 @@ I enjoy turning ideas into interactive experiences using modern JavaScript frame
 ## ✨ Features
 - Responsive and mobile-first design
 - Smooth animations with GSAP
+- Dark / Light theme support
+- Dynamic content loading with modern JavaScript (async/await)
 - Clean and modern UI
 - Optimized performance
 - Accessible and semantic HTML
