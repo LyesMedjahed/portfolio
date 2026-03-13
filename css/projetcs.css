@@ -104,6 +104,9 @@ p{
     flex-wrap: wrap;
     gap: 2.5rem;
 }
+h3{
+    text-align: center;
+}
 
 /* =========================
    RESPONSIVE
